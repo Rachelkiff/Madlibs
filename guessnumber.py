@@ -21,7 +21,7 @@ def comp_guess(x):
             guess = random.randint(low, high)
         else:
             guess = low
-        feedback = input(f"Is the {guess} too high (H), too low (L), or correct (C)?") 
+        feedback = input(f"Is the {guess} too high (H), too low (L), or correct (C)? ") 
         if feedback == "h":
             high = guess - 1
         elif feedback == "l":
